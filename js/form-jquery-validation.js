@@ -12,10 +12,9 @@ $( document ).ready(function() {
 	    //alert($("#nom").val().length);
 	   if ($("#nom").val().length < 5)
     {
-	   $('#myModal').modal("show");
-	   /*$("#resultat").attr('style','display:none');
+	   $("#resultat").attr('style','display:none');
 	   $("#error").attr('style','display:block');
-	   $("#error").html("La saisie du nom est obligatoire");*/
+	   $("#error").html("La saisie du nom est obligatoire");
 	   
 	}
 	else if ($("#prenom").val().length < 5)
